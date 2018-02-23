@@ -1,5 +1,9 @@
 package calculadora;
-
+/**
+ * Calculadora Notacion Polaca Inversa
+ * @author Alexandru Eusebiu Chiriac
+ * @version 23/2/2018 v 0.01
+ */
 public class RPN {
 	public void pushPila(double nuevo_dato) {
 		NodoPila nuevo_nodo = new NodoPila(nuevo_dato, arriba);
