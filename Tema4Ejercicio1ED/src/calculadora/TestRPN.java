@@ -17,16 +17,16 @@ import java.util.Scanner;
  *
  * Calculadora Notacion Polaca Inversa.
  * @author Alexandru Eusebiu Chiriac
- * @version 23/2/2018 v 0.01
+ * @version 23/2/2018 v 0.05
  *
  */
 
 public class TestRPN {
 	/**
 	 * Metodo "main" de la aplicación.
-	 * @param args Se le pasa la operación
+	 * @param operacion Se le pasa la operación
 	 */
-	public static void main(String args[]) {
+	public static void main(String operacion[]) {
 		do {
 			Scanner in = new Scanner(System.in);
 			System.out.println("Introduce expresion Postfija o teclea \"fin\".");

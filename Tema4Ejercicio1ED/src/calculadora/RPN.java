@@ -2,7 +2,7 @@ package calculadora;
 /**
  * Calculadora Notacion Polaca Inversa.
  * @author Alexandru Eusebiu Chiriac
- * @version 23/2/2018 v 0.01
+ * @version 23/2/2018 v 0.05
  */
 public class RPN {
 	private String commando;
