@@ -10,26 +10,29 @@ import java.util.Scanner;
  *	Reverse Polish notation (RPN) Notación Polaca inversa, por ejemplo
  *	la expresión: 4 * 5 - 7 / 2 % 3 nos da 1,5 respetando la prioridad de
  *	los operadores en notación RPN seria: 4 5 * 7 2 / - 3 % (pues no podemos
- *	poner los paréntesis para alterar la prioridad)
+ *	poner los paréntesis para alterar la prioridad).
  *
  *	Se debe reorganizar este código usando al menos tres de las reglas
  *	vistas en clase.
  *
- * Calculadora Notacion Polaca Inversa
+ * Calculadora Notacion Polaca Inversa.
  * @author Alexandru Eusebiu Chiriac
  * @version 23/2/2018 v 0.01
  *
  */
 
 public class TestRPN {
-	/* metodo main */
+	/**
+	 * Metodo "main" de la aplicación.
+	 * @param args Se le pasa la operación
+	 */
 	public static void main(String args[]) {
-		while(true) {
+		do {
 			Scanner in = new Scanner(System.in);
 			System.out.println("Introduce expresion Postfija o teclea \"fin\".");
 					
 			String linea = in.nextLine( );
-			if(linea.equals("fin")) {
+			if("fin".equals(linea)) {
 				System.out.println("Fin de programa");
 				break;
 			} else {
@@ -37,6 +40,6 @@ public class TestRPN {
 				System.out.printf("El resultado es %f\n",
 						calc.resultado( ));
 			}
-		}
+		}while(true);
 	}
 } 

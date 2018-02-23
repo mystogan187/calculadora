@@ -1,7 +1,7 @@
 package calculadora;
 
 /**
- * Calculadora Notacion Polaca Inversa
+ * Calculadora Notacion Polaca Inversa.
  * @author Alexandru Eusebiu Chiriac
  * @version 23/2/2018 v 0.01
  */
